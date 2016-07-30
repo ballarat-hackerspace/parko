@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:og="https://ogp.me/ns#">
+
+  <head>
+    <title>parko</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Current Carpark Status</h1>
+    <div style="position:relative; width: 800px; height: 600px;">
+      <div class="map" style="position: absolute; left:0; top:0;"><img src="map.png" width="100%"></div>
+      <div id="park31" style="position: absolute; left:0; top:0;"><img src="map31.png" width="100%"></div>
+      <div id="park32" style="position: absolute; left:0; top:0;"><img src="map32.png" width="100%"></div>
+    </div>
+    <div>Legend: <font color="red"><b>Red</b></font>=Occupied, <font color="green"><b>Green</b></font>=Free</div>
+  <script>
+    var spreadsheetID = "1mbTzkje20PEJ-JkWW0gclLfYrPPY4Xy1gaJHxwybKDw";
+    var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";
+
+    function updateParkData() {
+      $.getJSON(url, function(data) { var entry = data.feed.entry;
+        $(entry).each(function(){ // Column names are name, age, etc.
+          console.log(this);
+          console.log('Park31='+this.gsx$parko1.$t+' Park32='+this.gsx$parko2.$t);
+          if (this.gsx$parko1.$t == "TRUE") {
+            $('#park31').hide();
+          } else {
+            $('#park31').show();
+          }
+          if (this.gsx$parko2.$t == "TRUE") {
+            $('#park32').hide();
+          } else {
+            $('#park32').show();
+          }
+        });
+      });
+    }
+    updateParkData();
+    setInterval(updateParkData, 10000);
+  </script>
+</body>
+</html>
