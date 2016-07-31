@@ -55,7 +55,7 @@ the app to choose the best carpark at any time for the user
 and present them with a route to get there with the click of
 a button.
 
-![circuit diagram](/sensor/circuit/sensor.png "Circuit Diagram")
+![circuit diagram](/sensor/circuit/circuit.png "Circuit Diagram")
 
 ## Hardware
 
