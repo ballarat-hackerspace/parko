@@ -2,7 +2,7 @@
 
 ![parko logo](/parko.png "parko logo")
 
-[Project Video](https://youtu.be/zcAk24QigLk)
+[Project Video](https://youtu.be/NlxkDuOg9hU)
 
 ## Our Idea
 
