@@ -93,6 +93,9 @@ covering the sensor in an oleophobic coating it  will then
 allow rain to wash away any oil or dirt that falls on the
 sensor helping them stay clean and operating.
 
+We have aimed to keep the cost of the device to a minimum and
+don't expect the total cost of eah sensor to exceed $100.
+
 ![view 1](/sensor/design/car%20sensor%20v1.png "view 1")
 ![view 2](/sensor/design/car%20sensor%20v2.png "view 2")
 ![view 3](/sensor/design/car%20sensor%20v3.png "view 3")
