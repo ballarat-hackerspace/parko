@@ -2,6 +2,8 @@
 
 ![parko logo](/parko.png "parko logo")
 
+[Project Video](https://youtu.be/zcAk24QigLk)
+
 ## Our Idea
 
 We were inspired by the Ballarat CBD Car Parking Occupancy
