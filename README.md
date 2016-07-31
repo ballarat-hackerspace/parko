@@ -12,12 +12,12 @@ wanted to use it. To help supplement the data our project
 has two parts, one was to develop a small and cheap IoT
 device that could be installed in carparks to collect
 occupancy data over much longer time periods so that more
-data could be collect to make better predictions in the
-future. We also hope that the device could be used to gather
-near real time data and have prototyped that on a breadboard
-with a Particle Photon device combined with a LDR to detect
-the presence of a car by detecting the shadow it projects on
-the carpark.
+data could be collected to make better predictions in the
+future. We also hope that the sensor device could be used to
+gather near real time data and have prototyped that on a
+breadboard with a Particle Photon device combined with a LDR
+to detect the presence of a car by detecting the shadow it
+projects on the carpark.
 
 We also began working on a native Android app that would
 allow for a more rich experience that can collect a user's
@@ -59,7 +59,7 @@ a button.
 
 ## Hardware
 
-Our prototype hardware was very simple and use an LDR to
+Our prototype hardware was very simple and uses an LDR to
 detect shadows, we tested this at night in a lit room and
 feel confident that this solution would also work well at
 night in well lit car parks but in dark car parks the LDR
@@ -76,23 +76,24 @@ encourage more free WiFi to be deployed in our cities. If
 WiFi isn't available we could also use a 3G solution (e.g.
 use the Particle Electron) or perhaps a Zigbee mesh network.
 This might indicate that we need to produce several versions
-of the sensors with different network capabilities. The
-physical design of the sensor could be similar to the cats
-eyes that exist on roads with the sensor in the area where
-the reflector is and the electronics between the sensor and
-under the solar panel (the sensor would look similar to a
-flat topped pyramid). By angling the sensor and solar panel
-and covering the sensor in an oleophobic coating which will
-then allow rain to wash away any oil or dirt that falls on
-the sensor.
+of the sensors with different network capabilities.
+
+The physical design of the sensor could be similar to the cats
+eyes that exist on roads with the sensor in the area where the
+reflector is and the electronics between the sensor and under
+the solar panel (the sensor would look similar to a flat
+topped pyramid). By angling the sensor and solar panel and
+covering the sensor in an oleophobic coating it  will then
+allow rain to wash away any oil or dirt that falls on the
+sensor helping them stay clean and operating.
 
 ## Some ideas
 
 We don’t think there is any need to install a sensor in
-every single car park to collect useful data however we
-wanted it to be possible because to install the devices in
-every carpark so that we could also offer users with real
-time data of individual car parks. This would be the ideal
-but even if only 10% or 20% of the parks in a lot have
-sensors we can still extrapolate occupancy percentages in a
-useful way for users and for government.
+every single car park to collect useful data. We wanted it to
+be possible to install them in all spots because then we could
+also offer users with real time data of individual car park
+occupancy states.  We estimate that even if only 10% or 20% of
+the spots in a lot have sensors we can still extrapolate
+occupancy percentages in a useful way for users and for
+government.
