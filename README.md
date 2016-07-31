@@ -91,6 +91,10 @@ covering the sensor in an oleophobic coating it  will then
 allow rain to wash away any oil or dirt that falls on the
 sensor helping them stay clean and operating.
 
+![view 1]("/sensor/design/car sensor v1.png" "view 1")
+![view 2]("/sensor/design/car sensor v2.png" "view 2")
+![view 3]("/sensor/design/car sensor v3.png" "view 3")
+
 ## Some ideas
 
 We don’t think there is any need to install a sensor in
