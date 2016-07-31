@@ -1,5 +1,7 @@
 # parko
 
+![parko logo](/parko.png "parko logo")
+
 ## Our Idea
 
 We were inspired by the Ballarat CBD Car Parking Occupancy
