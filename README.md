@@ -57,6 +57,10 @@ a button.
 
 ![circuit diagram](/sensor/circuit/circuit.png "Circuit Diagram")
 
+![empty spot events](/sensor/code/ifttt_1.png "IFTTT recipe")
+
+![occupied events](/sensor/code/ifttt_2.png "IFTTT recipe")
+
 ## Hardware
 
 Our prototype hardware was very simple and uses an LDR to
